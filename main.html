@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="/images/tab_bar_icon.png">
+	<title>Science Trove</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+	<nav>
+		<div class="wrapper">
+		  <div class="logo"><a href="#">Science Trove</a></div>
+		  <input type="radio" name="slider" id="menu-btn">
+		  <input type="radio" name="slider" id="close-btn">
+		  <ul class="nav-links">
+			<label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+			<li><a href="#">Home</a></li>
+			<li>
+			  <a href="#" class="desktop-item">About Covid-19</a>
+			  <input type="checkbox" id="showDrop">
+			  <label for="showDrop" class="mobile-item">About Covid-19</label>
+			  <ul class="drop-menu">
+				<li><a href="/other pages/2nd page.html"> Current Situation on Bangladesh</a></li>
+				<li><a href="/other pages/5th page (Worldwide Situation).html">Worldwide Situation</a></li>
+			  </ul>
+			</li>
+			<li>
+			  <a href="#" class="desktop-item">Robotics and IT</a>
+			  <input type="checkbox" id="showDrop1">
+			  <label for="showDrop1" class="mobile-item">Robotics and IT</label>
+			  <ul class="drop-menu">
+				<li><a href="/other pages/3rd page (Machine Learning).html">Machine Learning</a></li>
+				<li><a href="/other pages/6th page (Cyber Security).html">Cybersecurity</a></li>
+			  </ul>
+			</li>
+			<li>
+			  <a href="#" class="desktop-item">Others</a>
+			  <input type="checkbox" id="showMega">
+			  <label for="showMega" class="mobile-item">Others</label>
+			  <div class="mega-box">
+				<div class="content">
+				  <div class="row">
+					<header>Physics and Astronomy</header>
+					<ul class="mega-links">
+					<li><a href="/other pages/4th page (Dark Energy).html">Dark Energy</a></li>
+					  <li><a href="#">About the biggest comet</a></li>
+					</ul>
+				  </div>
+				  <div class="row">
+					<header>Chemistry & Biochemistry</header>
+					<ul class="mega-links">
+					<li><a href="/other pages/7th page (Bio Weapon).html">Bio Weapon</a></li>
+					  <li><a href="#">Electrochemistry</a></li>
+					</ul>
+				  </div>
+				  <div class="row">
+					<header>About Healthcare</header>
+					<ul class="mega-links">
+					  <li><a href="/other pages/8th page (Cancer Prevention).html">Cancer Prevention</a></li>
+					  <li><a href="#">Eating Disorders</a></li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			</li>
+			<li><a href="#">About Me</a></li>
+		  </ul>
+		  <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+		</div>
+	  </nav>
+
+  	   <header11>
+		<div class="slider">
+			<div class="slides">
+			  
+			  <input type="radio" name="radio-btn" id="radio1">
+			  <input type="radio" name="radio-btn" id="radio2">
+			  <input type="radio" name="radio-btn" id="radio3">
+			  <input type="radio" name="radio-btn" id="radio4">
+			  
+			  <div class="slide first">
+				<img src="/images/1.png" alt="">
+			  </div>
+			  <div class="slide">
+				<img src="/images/knowledge-book.jpg" alt="">
+			  </div>
+			  <div class="slide">
+				<img src="/images/science.png" alt="">
+			  </div>
+			  <div class="slide">
+				<img src="/images/collective-knowledge-share.jpg" alt="">
+			  </div>
+			  
+			  <div class="navigation-auto">
+				<div class="auto-btn1"></div>
+				<div class="auto-btn2"></div>
+				<div class="auto-btn3"></div>
+				<div class="auto-btn4"></div>
+			  </div>
+			  
+			</div>
+			
+			<div class="navigation-manual">
+			  <label for="radio1" class="manual-btn"></label>
+			  <label for="radio2" class="manual-btn"></label>
+			  <label for="radio3" class="manual-btn"></label>
+			  <label for="radio4" class="manual-btn"></label>
+			</div>
+			
+		  </div>
+		
+	  
+		  <script type="text/javascript">
+		  var counter = 1;
+		  setInterval(function(){
+			document.getElementById('radio' + counter).checked = true;
+			counter++;
+			if(counter > 4){
+			  counter = 1;
+			}
+		  }, 5000);
+		  </script>
+	  
+		</body>
+	  </html>
+			
+  	   </header11>
+
+  	     	   <section class="section2">
+				<hr>
+				<h1 style="border:3px; border-style:solid; border-color:#323435; background-color: #323435; color: whitesmoke; padding:20px">Hot Topics</h1>
+			   <hr>
+  	   	   <div class="content">
+  	   	   	   <div class="left">
+  	   	   	   	  <div class="card">
+					<a target=”_blank” href="/other pages/2nd page.html"><img src="/images/covid-shot.jpg" alt="HTML tutorial" style="width:100%;margin: 0; height:auto;"></a>
+  	   	   	   	  </div>
+  	   	   	   </div>
+  	   	   	   <div class="right">
+  	   	   	   	  <div class="card">
+					<a target=”_blank” href="/other pages/3rd page (Machine Learning).html"><img src="/images/Machine Learning.jpg" alt="HTML tutorial" style="width:100%;height:230px;"></a>
+  	   	   	   	  </div>
+  	   	   	   	  <div class="card">
+					<a target=”_blank” href="/other pages/4th page (Dark Energy).html"><img src="/images/dark energy.jpg" alt="HTML tutorial" style="width:100%;height:300px;"></a>
+  	   	   	   	  </div>
+
+  	   	   	   </div>
+  	   	   </div>
+  	   </section>
+		 <hr>
+		 <footer class="footer">
+			<div class="footercontainer">
+				<div class="row">
+					<div class="footer-col">
+						<h4>company</h4>
+						<ul>
+							<li><a href="#">about us</a></li>
+							<li><a href="#">our services</a></li>
+							<li><a href="#">privacy policy</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>More</h4>
+						<ul>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Topics</a></li>
+							<li><a href="#">Facts</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>Information</h4>
+						<ul>
+							<li><a href="#">Contact us</a></li>
+							<li><a href="#">Get in touch</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>follow us</h4>
+						<div class="social-links">
+							<a href="#"><img src="/images/facebook.png" alt="facebook" style="width:40px;height:40px; border-radius:100%;"></a>
+							<a href="#"><img src="/images/instagram.png" alt="facebook" style="width:40px;height:40px; border-radius:100%;"></a>
+							<a href="#"><img src="/images/twitter.png" alt="facebook" style="width:40px;height:40px; border-radius:100%;"></a>
+							<a href="#"><img src="/images/linkedin.png" alt="facebook" style="width:40px;height:40px; border-radius:100%;"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+	   </footer>
+  	   <div class="clear">
+  	   </div>
+  </div>
+
+</body>
+</html>
